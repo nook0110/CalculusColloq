@@ -908,6 +908,34 @@ $\lim\limits_{n\rightarrow\infty}m_n=m.$
 	$$
 \end{definition}
 
+\begin{definition} (\textbf{Определение предела через окрестности}).
+	Число $A$
+	называется пределом функции $f$
+	в точке $a$ по множеству $E,$ если
+	для любой $\varepsilon$-окрестности
+	$V_{\varepsilon}(A)$ точки $A$ существует
+	такая проколотая $\delta$-окрестность
+	$\stackrel{\circ}{U}_{\delta}(a)$ точки $a,$
+	что для любого $x \in E\cap
+		\stackrel{\circ}{U}_{\delta}(a)$ выполнено
+	$f(x)\in V_{\varepsilon}(A),$ то есть
+	выполняется неравенство $|f(x)-A|<\varepsilon.$
+	Запись с помощью кванторов:
+	$$
+		\lim
+		\limits_{x\rightarrow a}f(x)=A\Leftrightarrow
+		\forall\;V_{\varepsilon}(A)\;\exists\;
+		\stackrel{\circ}{U}_{\delta}(a):
+		\forall x \in E\cap\stackrel{\circ}{U}_{\delta}(a)\;
+		f(x)\in\;V_{\varepsilon}(A).
+	$$
+	Итак, для любой $\varepsilon$-окрестности точки $A$
+	найдётся проколотая $\delta$-окрестность точки
+	$a,$ образ пересечения которой со множеством
+	$E$ при функции $f$ содержится в
+	$\varepsilon$-окрестности точки $A.$
+\end{definition}
+
 \begin{definition}
 	Пусть функция $f$ определена на множестве
 	$E\subset\R.$ Число $A$ называется
